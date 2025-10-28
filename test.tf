@@ -1,4 +1,4 @@
-# 🚨 INSECURE: Port 22 (SSH) is open to the global internet.
+# 🚨 INSECURE: Port 22 (SSH) is open to the global internet123.
 resource "aws_security_group" "insecure_sg" {
   name        = "insecure-sg"
   description = "Allow SSH from anywhere"
